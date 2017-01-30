@@ -100,7 +100,8 @@ y2 = np.log(x2 ** 2) * 5
 plt.plot(x2,y, color="blue", linestyle="-")
 
 # shortcuts
-plt.plot(x2,y2,'r--')
+plt.plot(x2,y2,'r--')  # dashed red line
+plt.plot(x2,y2,'r-')   # solid red line
 
 # markers
 # http://matplotlib.org/api/markers_api.html#module-matplotlib.markers

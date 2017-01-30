@@ -242,3 +242,24 @@ a[mask] = np.nan
 # Contructing structured arrays
 #
 a = np.array([(1.0, 2), (3.0, 4)], dtype=[('x', float), ('y', int)])
+
+
+'''
+
+Lab 3 Grading Rubric
+
+• Does the program calculate the distance correctly (i.e. does it agree with 
+  the website provided)? 0-5 pts.
+                                                     
+• Does the program get user inputs from the console and successfully screen 
+  them for errors? 0-5 pts.
+  
+• Does the program print the required outputs to the console and are they 
+  explained in a manner that the user knows what they are getting? 0-5 pts.
+  
+• Do the comments embedded in the code sufficiently explain the work flow and 
+  the commands that are being executed (i.e. can I understand what your code is 
+  doing without having to interpret commands from their actual syntax)? 0-5 pts.
+                                                            
+• Extra Credit parts – Same criteria apply, 3 pts. available
+

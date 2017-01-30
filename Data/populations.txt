@@ -1,3 +1,4 @@
+<<<<<<< Updated upstream
 # year	hare	lynx	carrot
 1900	30e3	4e3	48300
 1901	47.2e3	6.1e3	48200
@@ -20,3 +21,8 @@
 1918	14.6e3	9.7e3	43300
 1919	16.2e3	10.1e3	41300
 1920	24.7e3	8.6e3	47300
+=======
+#year  hare    lynx    carrot
+1900    30e3    4e3     48300
+1901    47.2e3  6.1e3   48200
+>>>>>>> Stashed changes

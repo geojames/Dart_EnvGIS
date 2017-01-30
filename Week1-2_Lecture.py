@@ -48,7 +48,9 @@ numb_float = float(numb_str)
 # to add single-quotes and apostrophes the outter quotes must be double "__"
 quotes = "adding 'quotes' or apostrophe's in a string"
 
-# double-quotes can be added using the "escape" charater backslash
+# double-quotes can be added using the "escape" charater backslash -- this is 
+# important because a single backslash will never work for you!
+
 double_quotes = "this shows how \"double quotes\" are inserted"
 
 # since the backslash is the escape charater, double backslash add the slash
@@ -59,7 +61,7 @@ double_quotes = "c:\\windows\\users\\James\\Desktop"
 File_paths = "C:/Windows/Users/James"
 
 # Sting methods
-my_text.
+my_text.upper()
 
 # string indexing
 # | P | Y | T | H | O | N |
@@ -67,6 +69,8 @@ my_text.
 text = "python"
 print(text[0])
 print(text[6])
+
+print(test[1:5])  # print characters 1-4, 5 will not print.
 
 #%%------
 # BOOLEAN Values - True and False
@@ -99,6 +103,7 @@ y = 3
 birds = ["robin", "jay", "titmouse"]
 birds_with_crests = ["cardinal", "titmouse"]
 
+# Spyder Excludes UPPERCASE variables from the variable list on the right  --> test it
 LAKES = ("michigan", "erie")
 NUM_LAKES = 4
 
@@ -146,6 +151,7 @@ y2 = 0.2
 
 # ??? type out the equation for the eqlidean distance between the two points
 
+dist = math.sqrt((x2-x1)**2+(y2-y1)**2)
 
 #%% ********************
 # COMMENTING

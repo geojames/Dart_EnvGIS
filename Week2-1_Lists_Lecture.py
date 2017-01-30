@@ -44,7 +44,8 @@ num_list[3:]    # all values after and index
 num_list[0:3]
 
 # ??? print the values 4,5,6,7 from num_list
-
+num_list[3:7]
+num_list[-6,-2]  # smae thing, just using the reverse case
 
 # every nth value - list[start:end:step]
 num_list[1:-1:2]
@@ -62,6 +63,8 @@ str_list[3] = "giraffe"
 #%%------
 # TUPLES - lists that cannot be changed after they are created
 # created with Parentheses ()
+
+# Probably most useful for storing constants in scripts...  otherwise, pretty useless
 
 my_tup = ("one","two", "three")
 my_tup.

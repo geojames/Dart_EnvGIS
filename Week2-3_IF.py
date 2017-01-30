@@ -53,7 +53,7 @@ my_str = "hello there"
 print(my_str + my_int + my_flt)
 
 # fixed?
-print()
+print(my_str+str(my_int)+str(my_flt))
 
 # "OLD" style formatted prints
 # adding other text...
